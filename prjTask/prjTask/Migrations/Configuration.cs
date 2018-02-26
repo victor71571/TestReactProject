@@ -20,10 +20,10 @@ namespace prjTask.Migrations
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
             //  to avoid creating duplicate seed data.
             context.Persons.AddOrUpdate(x => x.Id,
-               new Person { Id = 1, Name = "name1", Age = 22, Gender = "Male" },
-               new Person { Id = 2, Name = "name2", Age = 23, Gender = "Male" },
-               new Person { Id = 3, Name = "name13", Age = 24, Gender = "Male" },
-               new Person { Id = 4, Name = "name32", Age = 12, Gender = "Male" }
+               new Person { Id = 5, Name = "Victor", Age = 22, Gender = "Male" },
+               new Person { Id = 6, Name = "Olha", Age = 23, Gender = "Female" },
+               new Person { Id = 7, Name = "Andrew", Age = 24, Gender = "Male" },
+               new Person { Id = 8, Name = "Max", Age = 12, Gender = "Male" }
 
 
                );
